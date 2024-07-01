@@ -40,8 +40,8 @@ function App() {
           <Route path="/panitia" element={<Committee />} />
           <Route path="/event/event_detail/:id" element={<DetailEvent />} />
           <Route path="/event/event_detail/pesan/:id" element={<Pesan />} />
-          <Route path="/history" element={<History />} />
         </Route>
+        <Route path="/history" element={<History />} />
         <Route path="/" element={<Default />} />
       </Routes>
     </Router>

@@ -5,8 +5,8 @@ const Default = () => {
 
   const token =
     "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3Rlc3RhcGkuc2lyZWthbXBvbGtlc3lvZ3lhLmNvbS9hcGkvYXV0aC9yZWdpc3RlciIsImlhdCI6MTcxOTczNTMyOCwibmJmIjoxNzE5NzM1MzI4LCJqdGkiOiJCZGNwdGl5YVVUclo5OENlIiwic3ViIjoiMyIsInBydiI6ImY2NGQ0OGE2Y2VjN2JkZmE3ZmJmODk5NDU0YjQ4OGIzZTQ2MjUyMGEifQ.HI8AKaipzVvOW6FSaeY_AHtQ1LQDZuLcQHK0JqUx-4Y";
-  
-    useEffect(() => {
+
+  useEffect(() => {
     fetch("https://testapi.sirekampolkesyogya.com/api/event", {
       method: "GET",
       headers: {
